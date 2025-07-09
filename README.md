@@ -20,6 +20,8 @@ Paraku ei teinud ta seda ideaalselt, saadud exceli failis kuupäevad ei olnud da
 Saadud konverteeritud fail oli "korterihinnad.xlsx", kasutasin andmete korrastamiseks, keskmise üürihinna õppeaastate kaupa leidmiseks **skript** "Korterihindade keskmise leidja.py".
 Koodijupp tagastab korrastatud exceli faili **tagastatud fail**"akadeemilised_keskmised.xlsx".
 
+Graafiku joonistamiseks on kasutatud **skript** "Korterite üürihindade keskmise graafik.py"
+
 ## 4. Korrelatsioon tudengite ja korteri üürihindade vahel
 **skript** "Korrelatsioon.py" arvutab välja korrelatsiooni ning P-väärtuse, samuti joonistab graafiku. Antud koodijupis kasutan eelnevalt saadud exceli faile "Tulemus_Tallinna_üliõpilased.xlsx",  "Tulemus_Tartu_Tudengid.xlsx",
 "akadeemilised_keskmised.xlsx".
