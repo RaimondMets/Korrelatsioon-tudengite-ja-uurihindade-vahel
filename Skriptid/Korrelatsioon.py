@@ -7,7 +7,7 @@ AkadKeskmine = pd.read_excel("akadeemilised_keskmised.xlsx")
 #Tartu veerg  = AkadKeskmine["Tartu €/m²"])
 #Tallinna veerg = AkadKeskmine["Tallinn €/m²"]
 
-TudengiteArvTallinn = pd.read_excel("Tulemus_Talinna_üliõpilased.xlsx")
+TudengiteArvTallinn = pd.read_excel("Tulemus_Tallinna_üliõpilased.xlsx")
 
 TudengiteArvTartu = pd.read_excel("Tulemus_Tartu_Tudengid.xlsx")
 
