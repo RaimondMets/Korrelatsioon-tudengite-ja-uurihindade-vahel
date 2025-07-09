@@ -5,7 +5,7 @@
 
 ## 1. Märkus aastate kohta
 Graafikutel ja Exceli failides kujutatud aastad viitavad vastavale õppeaastale.  
-Näiteks kui on märgitud aasta **2014**, tähendab see õppeaastat **2014/2015**.  
+Märgitud aasta **2014**, tähendab see õppeaastat **2014/2015**.  
 Sama loogika kehtib kogu andmestikus.
    
 ## 2. Üliõpilaste arv
