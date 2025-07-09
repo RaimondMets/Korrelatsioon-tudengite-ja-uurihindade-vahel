@@ -46,7 +46,7 @@ def funktsioon(failitee, pealkiri):
 
 def main():
     failitee = input("Sisesta failitee: ")
-    pealkiri = input("Sisesta pealkiri: ")
+    pealkiri = input("Sisesta graafiku pealkiri: ")
     funktsioon(failitee, pealkiri)
 
 main()
