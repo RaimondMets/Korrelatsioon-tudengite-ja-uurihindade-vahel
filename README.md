@@ -1,5 +1,5 @@
 # Tudengite arvu ja korterihindade korrelatsioon
-# Kõik skriptid on ise koostatud, ning töötavad vastavalt dokumenteeritud sisendfailide ja väljunditega.
+# Kõik skriptid on autori koostatud, ning töötavad vastavalt dokumenteeritud sisendfailide ja väljunditega.
 
 ## 1. Märkus aastate kohta
 Graafikutel kujutatud tudengite arv aastate lõikes tähendab seda, et kui graafikul on aasta 2014, on selle all mõeldud õppeaastat 2014/15.
