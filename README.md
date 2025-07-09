@@ -14,7 +14,7 @@ Sama loogika kehtib kogu andmestikus.
 Õppeaastate kaupa liideti tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.
 **skript** "KoolideKokkuLiitja.py"
 
-Koodijupis saab kasutada järgnevaid koostatud exceli faile: **sisendfailid** "TartuUliopilased.xlsx" ja "TallinnaUliopilased.xlsx".
+Koodis saab kasutada järgnevaid koostatud exceli faile: **sisendfailid** "TartuUliopilased.xlsx" ja "TallinnaUliopilased.xlsx".
 Antud kood joonistab graafiku tudengite koguarvu kohta eraldi linnades (vastavalt soovile kas Tallinnas või Tartus), ning salvestab ka saadud tulemuse exceli faili.
 Kood väljastas järgnevad failid: **tagastatud failid** "Tulemus_Tallinna_üliõpilased.xlsx", "Tulemus_Tartu_Tudengid.xlsx".
 
