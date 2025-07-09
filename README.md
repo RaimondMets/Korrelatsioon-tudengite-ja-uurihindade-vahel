@@ -29,7 +29,7 @@ Vigase teisenduse tõttu ei olnud saadud exceli failis kuupäevad õiges vorming
 Programmis korrastatakse andmed, arvutatakse keskmine üürihind õppeaasta kohta ning tagastatakse
 korrastatud exceli fail "akadeemilised_keskmised.xlsx".
 
-Keskmiste üürihindade graafikute koostamiseks on kasutatud:
+Keskmiste üürihindade graafikute koostamiseks on kasutatud:  
 **skript** "Korterite üürihindade keskmise graafik.py"  
 **sisendfail** "akadeemilised_keskmised.xlsx"
 
