@@ -2,7 +2,9 @@
 # Kõik skriptid on autori koostatud, ning töötavad vastavalt dokumenteeritud sisendfailide ja väljunditega.
 
 ## 1. Märkus aastate kohta
-Graafikutel kujutatud tudengite arv aastate lõikes tähendab seda, et kui graafikul on aasta 2014, on selle all mõeldud õppeaastat 2014/15.
+Graafikutel ja Exceli failides kujutatud aastad viitavad vastavale õppeaastale.  
+Näiteks kui on märgitud aasta **2014**, tähendab see õppeaastat **2014/2015**.  
+Sama loogika kehtib kogu andmestikus.
    
 ## 2. Üliõpilaste arv
    
