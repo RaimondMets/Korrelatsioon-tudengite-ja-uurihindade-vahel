@@ -1,4 +1,4 @@
-# Tudengite arvu ja korterihindade korrelatsioon Tartus ja Tallinnas
+# Tudengite arvu ja korterihindade korrelatsioon Tartus ja Tallinnas 2014/15 - 2024/25
 # Kõik skriptid on autori koostatud, ning töötavad vastavalt dokumenteeritud sisendfailide ja väljunditega.
 > ⚠️ NB! Skriptide töötamiseks on vajalikud järgmised Python teegid:  
 **`pandas`**, **`matplotlib`**, **`scipy`**
