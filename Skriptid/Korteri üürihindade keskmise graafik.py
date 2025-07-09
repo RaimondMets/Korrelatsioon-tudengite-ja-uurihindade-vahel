@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
-df = pd.read_excel("C:\\TudengiteInfo\\akadeemilised_keskmised.xlsx")
+#Siia tuleb sisestada failitee
+df = pd.read_excel("akadeemilised_keskmised.xlsx")
 
 print(df.columns)
 
