@@ -17,7 +17,7 @@ Kood väljastas järgnevad failid: **tagastatud failid** "Tulemus_Tallinna_üli�
 ## 3. Korterite üürihinnad
 Laadisin alla üürihindade andmed Kinnisvara.ee lehelt. Saadud PDF fail tuli ümber teha exceli failiks, kasutasin selleks https://www.freeconvert.com/pdf-to-excel.
 Paraku ei teinud ta seda ideaalselt, saadud exceli failis kuupäevad ei olnud date formaadis, ning seetõttu pidin Pythoniga muutma need väärtused date-ks.
-Saadud konveteeritud fail oli "korterihinnad.xlsx", kasutasin andmete korrastamiseks, keskmise üürihinna õppeaastate kaupa leidmiseks **skript** "Korterihindade keskmise leidja.py".
+Saadud konverteeritud fail oli "korterihinnad.xlsx", kasutasin andmete korrastamiseks, keskmise üürihinna õppeaastate kaupa leidmiseks **skript** "Korterihindade keskmise leidja.py".
 Koodijupp tagastab korrastatud exceli faili **tagastatud fail**"akadeemilised_keskmised.xlsx".
 
 ## 4. Korrelatsioon tudengite ja korteri üürihindade vahel
