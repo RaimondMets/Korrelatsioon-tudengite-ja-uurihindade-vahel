@@ -14,8 +14,6 @@ df['Kuupäev'] = pd.to_datetime(df['Kuupäev'], format="%m.%Y", errors='coerce')
 
 # 4. eemalda vigased kuupäevad
 df = df.dropna(subset=['Kuupäev'])
-print(df[df['Kuupäev'].isna()])
-
 
 # 5. lisa akadeemiline aasta
 def akadeemiline_aasta(kuup):
@@ -32,3 +30,4 @@ print(keskmised)
 
 # salvestan exceli failina
 keskmised.to_excel("akadeemilised_keskmised.xlsx", index=False)
+print("Fail on salvestatud nimega 'akadeemilised_keskmised.xlsx'")
