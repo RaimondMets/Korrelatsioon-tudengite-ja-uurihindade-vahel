@@ -11,7 +11,8 @@ Sama loogika kehtib kogu andmestikus.
 ## 2. Üliõpilaste arv
    
 Üliõpilaste arvu saamiseks koostati exceli tabel, kus on õppeaastate kohta kirjas tudengite arv kõikides Tallinna ja Tartu ülikoolides.
-Õppeaastate kaupa liideti tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.
+Õppeaastate kaupa liideti tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.  
+
 **skript** "KoolideKokkuLiitja.py"  
 **sisendfailid** "TartuUliopilased.xlsx" või "TallinnaUliopilased.xlsx"
 
@@ -30,6 +31,7 @@ Programmis korrastatakse andmed, arvutatakse keskmine üürihind õppeaasta koht
 korrastatud exceli fail "akadeemilised_keskmised.xlsx".
 
 Keskmiste üürihindade graafikute koostamiseks on kasutatud:  
+
 **skript** "Korterite üürihindade keskmise graafik.py"  
 **sisendfail** "akadeemilised_keskmised.xlsx"
 
