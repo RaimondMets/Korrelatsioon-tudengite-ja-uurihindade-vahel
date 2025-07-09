@@ -25,6 +25,25 @@ Graafiku joonistamiseks on kasutatud **skript** "Korterite üürihindade keskmis
 ## 4. Korrelatsioon tudengite ja korteri üürihindade vahel
 **skript** "Korrelatsioon.py" arvutab välja korrelatsiooni ning P-väärtuse, samuti joonistab graafiku. Antud koodijupis kasutan eelnevalt saadud exceli faile "Tulemus_Tallinna_üliõpilased.xlsx",  "Tulemus_Tartu_Tudengid.xlsx",
 "akadeemilised_keskmised.xlsx".
+
+## Kausta struktuur
+
+📁 andmed/
+   ├── TartuUliopilased.xlsx
+   ├── TallinnaUliopilased.xlsx
+   └── korterihinnad.xlsx
+
+📁 skriptid/
+   ├── KoolideKokkuLiitja.py
+   ├── Korterihindade keskmise leidja.py
+   ├── Korrelatsioon.py
+   └── Korterite üürihindade keskmise graafik.py
+
+📁 tulemused/
+   ├── Tulemus_Tartu_Tudengid.xlsx
+   ├── Tulemus_Tallinna_üliõpilased.xlsx
+   └── akadeemilised_keskmised.xlsx
+
    
 
    
