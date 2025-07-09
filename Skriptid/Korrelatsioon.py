@@ -2,19 +2,22 @@ import pandas as pd
 from scipy.stats import pearsonr
 import matplotlib.pyplot as plt
 
-AkadKeskmine = pd.read_excel("C:\\Users\\raimo\\PycharmProjects\\PythonProject\\.venv\\akadeemilised_keskmised.xlsx")
+AkadKeskmine = pd.read_excel("akadeemilised_keskmised.xlsx")
+
 #Tartu veerg  = AkadKeskmine["Tartu €/m²"])
 #Tallinna veerg = AkadKeskmine["Tallinn €/m²"]
-TudengiteArvTallinn = pd.read_excel("C:\\TudengiteINFO\\Tulemus_Talinna_üliõpilased.xlsx")
-TudengiteArvTartu = pd.read_excel("C:\\TudengiteINFO\\Tulemus_Tartu_Tudengid.xlsx")
-#TudengiteArv["Koguarv"] kokku iga aasta tudengeid df2["Aasta"] on aasta
+
+TudengiteArvTallinn = pd.read_excel("Tulemus_Talinna_üliõpilased.xlsx")
+
+TudengiteArvTartu = pd.read_excel("Tulemus_Tartu_Tudengid.xlsx")
+
 Aastad = ["2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"]
 TudengidTallinnas = TudengiteArvTallinn["Koguarv"]
 TudengidTartus = TudengiteArvTartu["Koguarv"]
 df = pd.DataFrame({
     'Aasta': Aastad,
-    'Tudengid': TudengidTartus,
-    'Korterihind': AkadKeskmine["Tartu €/m²"] #Muutsin vastavalt vajadusele, kas tartu v tallinna hinnad.
+    'Tudengid': TudengidTartus, #Vastavalt vajadusele, kas TudengidTartus või TudengidTallinnas
+    'Korterihind': AkadKeskmine["Tartu €/m²"] #Vastavalt vajadusele, kas tartu või tallinna hinnad.
 })
 
 #arvutan korrelatsiooni
