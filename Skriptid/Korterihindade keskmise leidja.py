@@ -30,4 +30,5 @@ print(keskmised)
 
 # salvestan exceli failina
 keskmised.to_excel("akadeemilised_keskmised.xlsx", index=False)
-print("Fail on salvestatud nimega 'akadeemilised_keskmised.xlsx'")
+print("Fail 'akadeemilised_keskmised.xlsx' salvestati edukalt.")
+
