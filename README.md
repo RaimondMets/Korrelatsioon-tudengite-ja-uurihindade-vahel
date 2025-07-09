@@ -1,5 +1,6 @@
 # Tudengite arvu ja korterihindade korrelatsioon
 # Kõik skriptid on autori koostatud, ning töötavad vastavalt dokumenteeritud sisendfailide ja väljunditega.
+# NB! Skriptide testimiseks on vajalikud järgmised teegid: Matplotlib, Pandas, SciPy.
 
 ## 1. Märkus aastate kohta
 Graafikutel ja Exceli failides kujutatud aastad viitavad vastavale õppeaastale.  
