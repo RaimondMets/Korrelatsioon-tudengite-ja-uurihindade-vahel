@@ -10,8 +10,8 @@ Sama loogika kehtib kogu andmestikus.
    
 ## 2. Üliõpilaste arv
    
-Üliõpilaste arvu saamiseks koostasin exceli tabeli, kus on õppeaastate kohta kirjas tudengite arv kõikides Tallinna ja Tartu ülikoolides.
-Õppeaastate kaupa liitsin tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.
+Üliõpilaste arvu saamiseks koostati exceli tabel, kus on õppeaastate kohta kirjas tudengite arv kõikides Tallinna ja Tartu ülikoolides.
+Õppeaastate kaupa liideti tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.
 **skript** "KoolideKokkuLiitja.py"
 
 Koodijupis saab kasutada järgnevaid koostatud exceli faile: **sisendfailid** "TartuUliopilased.xlsx" ja "TallinnaUliopilased.xlsx".
