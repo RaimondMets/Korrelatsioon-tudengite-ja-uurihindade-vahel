@@ -30,18 +30,18 @@ Graafiku joonistamiseks on kasutatud **skript** "Korterite üürihindade keskmis
 
 ## Kausta struktuur
 
-📁 andmed/
+📁 Sisendfailid/
    ├── TartuUliopilased.xlsx
    ├── TallinnaUliopilased.xlsx
    └── korterihinnad.xlsx
 
-📁 skriptid/
+📁 Skriptid/
    ├── KoolideKokkuLiitja.py
    ├── Korterihindade keskmise leidja.py
    ├── Korrelatsioon.py
    └── Korterite üürihindade keskmise graafik.py
 
-📁 tulemused/
+📁 Valjundfailid/
    ├── Tulemus_Tartu_Tudengid.xlsx
    ├── Tulemus_Tallinna_üliõpilased.xlsx
    └── akadeemilised_keskmised.xlsx
