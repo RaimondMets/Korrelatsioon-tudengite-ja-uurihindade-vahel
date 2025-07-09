@@ -6,7 +6,7 @@ Graafikutel kujutatud tudengite arv aastate lõikes tähendab seda, et kui graaf
    
 ## 2. Üliõpilaste arv
    
-Üliõpilaste arvu saamiseks koostasin exceli tabeli, kus on õppeaasta kohta kirjas tudengite arv kõikides Tallinna ja Tartu ülikoolides.
+Üliõpilaste arvu saamiseks koostasin exceli tabeli, kus on õppeaastate kohta kirjas tudengite arv kõikides Tallinna ja Tartu ülikoolides.
 Õppeaastate kaupa liitsin tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.
 **skript** "KoolideKokkuLiitja.py"
 
