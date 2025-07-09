@@ -12,8 +12,10 @@ TudengiteArvTallinn = pd.read_excel("Tulemus_Tallinna_üliõpilased.xlsx")
 TudengiteArvTartu = pd.read_excel("Tulemus_Tartu_Tudengid.xlsx")
 
 Aastad = ["2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"]
+
 TudengidTallinnas = TudengiteArvTallinn["Koguarv"]
 TudengidTartus = TudengiteArvTartu["Koguarv"]
+
 df = pd.DataFrame({
     'Aasta': Aastad,
     'Tudengid': TudengidTartus, #Vastavalt vajadusele, kas TudengidTartus või TudengidTallinnas
