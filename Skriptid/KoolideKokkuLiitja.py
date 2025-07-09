@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def funktsioon(failitee, ridadearv, pealkiri):
+def funktsioon(failitee, pealkiri):
     #loen exceli faili sisse
 
     df = pd.read_excel(failitee, skiprows=1)
@@ -15,7 +15,7 @@ def funktsioon(failitee, ridadearv, pealkiri):
 
     for veerg in df.columns[1:]:
         df[veerg] = pd.to_numeric(df[veerg], errors='coerce')
-    print(df.head(ridadearv))
+    print(df.head(100))
 
     #liidan kõik väärtused kokku õppeaastate kaupa
 
@@ -23,7 +23,7 @@ def funktsioon(failitee, ridadearv, pealkiri):
 
     #väljastan andmed
 
-    print(df[['Aasta', 'Koguarv']].head(ridadearv))
+    print(df[['Aasta', 'Koguarv']].head(100))
 
     #joonistan graafiku
     plt.figure(figsize=(10, 6))
@@ -44,8 +44,7 @@ def funktsioon(failitee, ridadearv, pealkiri):
 
 def main():
     failitee = input("Sisesta failitee: ")
-    ridadearv = int(input("Sisesta ridadearv (pane 100): "))
-    pealkiri = input("Sisesta pealkiri: ")
-    funktsioon(failitee, ridadearv, pealkiri)
+    pealkiri = input("Sisesta graafiku pealkiri: ")
+    funktsioon(failitee, pealkiri)
 
 main()
