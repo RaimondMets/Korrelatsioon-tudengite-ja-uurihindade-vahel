@@ -13,22 +13,35 @@ Sama loogika kehtib kogu andmestikus.
 Üliõpilaste arvu saamiseks koostati exceli tabel, kus on õppeaastate kohta kirjas tudengite arv kõikides Tallinna ja Tartu ülikoolides.
 Õppeaastate kaupa liideti tudengite arvud kokku eri Tallinna ja Tartu koolides, kasutades Pythonit ja Pandas teeki.
 **skript** "KoolideKokkuLiitja.py"
+**sisendfailid** "TartuUliopilased.xlsx" või "TallinnaUliopilased.xlsx"
 
-Koodis saab kasutada järgnevaid koostatud exceli faile: **sisendfailid** "TartuUliopilased.xlsx" ja "TallinnaUliopilased.xlsx".
-Antud kood joonistab graafiku tudengite koguarvu kohta eraldi linnades (vastavalt soovile kas Tallinnas või Tartus), ning salvestab ka saadud tulemuse exceli faili.
-Kood väljastas järgnevad failid: **tagastatud failid** "Tulemus_Tallinna_üliõpilased.xlsx", "Tulemus_Tartu_Tudengid.xlsx".
+Antud koodis arvutatakse tudengite arvu õppeaastate kaupa vastavalt sisendile - kas Tartus või Tallinnas ning koostatakse graafik.
 
 ## 3. Korterite üürihinnad
-Laadisin alla üürihindade andmed Kinnisvara.ee lehelt. Saadud PDF fail tuli ümber teha exceli failiks, kasutasin selleks https://www.freeconvert.com/pdf-to-excel.
-Paraku ei teinud ta seda ideaalselt, saadud exceli failis kuupäevad ei olnud date formaadis, ning seetõttu pidin Pythoniga muutma need väärtused date-ks.
-Saadud konverteeritud fail oli "korterihinnad.xlsx", kasutasin andmete korrastamiseks, keskmise üürihinna õppeaastate kaupa leidmiseks **skript** "Korterihindade keskmise leidja.py".
-Koodijupp tagastab korrastatud exceli faili **tagastatud fail**"akadeemilised_keskmised.xlsx".
 
-Graafiku joonistamiseks on kasutatud **skript** "Korterite üürihindade keskmise graafik.py"
+Kasutatud on üürihindade andmeid leheküljelt Kinnisvara.ee. Saadud PDF fail teisendati exceli failiks, selleks kasutati lehekülge https://www.freeconvert.com/pdf-to-excel.
+Vigase teisenduse tõttu ei olnud saadud exceli failis kuupäevad õiges vormingus ning need tuli Pythonit kasutades õigeks muuta (date vorming). 
+
+**skript** "Korterihindade keskmise leidja.py"
+**sisendfail** "korterihinnad.xlsx"
+**tagastatud fail** "akadeemilised_keskmised.xlsx"
+
+Programmis korrastatakse andmed, arvutatakse keskmine üürihind õppeaasta kohta ning tagastatakse
+korrastatud exceli fail "akadeemilised_keskmised.xlsx".
+
+Keskmiste üürihindade graafikute koostamiseks on kasutatud:
+**skript** "Korterite üürihindade keskmise graafik.py"
+**sisendfail** "akadeemilised_keskmised.xlsx"
+
 
 ## 4. Korrelatsioon tudengite ja korteri üürihindade vahel
-**skript** "Korrelatsioon.py" arvutab välja korrelatsiooni ning P-väärtuse, samuti joonistab graafiku. Antud koodijupis kasutan eelnevalt saadud exceli faile "Tulemus_Tallinna_üliõpilased.xlsx",  "Tulemus_Tartu_Tudengid.xlsx",
+
+**skript** "Korrelatsioon.py"
+**sisendfailid** "Tulemus_Tallinna_üliõpilased.xlsx",  "Tulemus_Tartu_Tudengid.xlsx",
 "akadeemilised_keskmised.xlsx".
+
+Koodis leitakse korrelatsioon, P-väärtus ning koostatakse korrelatsiooni visualiseerimiseks graafik. 
+
 
 ## Kausta struktuur
 
