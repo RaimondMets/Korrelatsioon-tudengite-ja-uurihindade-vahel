@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. lae Excelist vajalikud veerud
-failinimi = "C:\\TudengiteINFO\\ProovimeSEDAKORTERIHINNAD.xlsx"
+failinimi = "korterihinnad.xlsx"
 df = pd.read_excel(failinimi)
 
 # 2. nimeta veerud ümber selgemaks
